@@ -1,0 +1,4 @@
+helmfiles:
+- "commons/repos.yaml"
+- "releases/prometheus.yaml"
+    

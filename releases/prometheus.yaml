@@ -1,0 +1,8 @@
+releases:
+- name: prom-norbac
+  namespace: prometheus
+  chart: stable/prometheus
+  set:
+  - name: rbac.create
+    value: false
+    

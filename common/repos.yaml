@@ -1,0 +1,8 @@
+---
+repositories:
+  # Stable repo of official helm charts
+  - name: "stable"
+    url: "https://kubernetes-charts.storage.googleapis.com"
+  # Incubator repo for helm charts
+  - name: "incubator"
+    url: "https://kubernetes-charts-incubator.storage.googleapis.com"
